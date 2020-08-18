@@ -1,8 +1,8 @@
 <!--Main Navigation-->
 <header>
-
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark black scrolling-navbar">
-    <a class="navbar-brand" href="#"><strong>Codesession Academy</strong></a>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark  scrolling-navbar" style="background-color:#9e9d9d;">
+    <a class="navbar-brand" href="{%url 'home'%}"><strong>Codesession Academy</strong></a>
+    <img src="/static/image/cs_logo.png"  alt="" style="background-color: aquamarine;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -10,16 +10,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="{%url 'home'%}">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Programs</a>
+          <a class="nav-link" href="{%url 'Programs'%}">Programs</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Why Us?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Tutorial</a>
+          <a class="nav-link" href="{%url 'Tutorial'%}">Tutorial</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact Us</a>

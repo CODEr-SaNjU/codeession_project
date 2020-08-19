@@ -1,0 +1,20 @@
+{% extends "html_files/main.htm" %}
+
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/Home.css' %}">
+<link rel="stylesheet" type="text/css" href="/static/css/Home.css">
+<body>
+{% block content %}
+<section id="why-us" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+    <div class="container">
+      <header class="section-header">
+        <h3>Why us?</h3>
+         <p>We’re on a mission to give the power of coding to all and inspire new generations to make exciting and user friendly solutions.<br><br>Over the years, we have combined the geeks, experienced software developers and industry best tech architects to seek out ways to create a more beautiful, and better environment of learning coding. When it comes to learn coding, we are the better way forward. Come, join us! 
+        </p>
+      </header>
+    </div>
+</section>
+
+{% endblock %}
+</body>

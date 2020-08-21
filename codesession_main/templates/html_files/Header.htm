@@ -1,28 +1,32 @@
 <!--Main Navigation-->
 <header>
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark  scrolling-navbar" style="background-color:#9e9d9d;">
-    <a class="navbar-brand" href="{%url 'home'%}"><strong>Codesession Academy</strong></a>
-    <img src="/static/image/cs_logo.png"  alt="" style="background-color: aquamarine;">
+      <mdb-navbar color="white">
+        <mdb-navbar-brand href="{%url 'home'%}">
+          <img src="/static/image/cs_logo .png" height="50" alt="">
+        </mdb-navbar-brand>
+      </mdb-navbar>&nbsp;
+    <a class="navbar-brand" href="{%url 'home'%}"><strong style="color: black;">Codesession Academy</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto" >
         <li class="nav-item ">
-          <a class="nav-link" href="{%url 'home'%}">Home <span class="sr-only"></span></a>
+          <a class="nav-link" href="{%url 'home'%}" style="color: black;">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" href="{%url 'Programs'%}" style="color: black;">Programs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{%url 'Programs'%}">Programs</a>
+          <a class="nav-link" href="#" style="color: black;">Why Us?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Why Us?</a>
+          <a class="nav-link" href="{%url 'Tutorial'%}" style="color: black;">Tutorial</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{%url 'Tutorial'%}">Tutorial</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="#"style="color: black;">Contact Us</a>
         </li>
       </ul>
       <ul class="navbar-nav nav-flex-icons">
@@ -41,3 +45,13 @@
 
 </header>
 <!--Main Navigation-->
+<script>
+  import { mdbNavbar, mdbNavbarBrand } from 'mdbvue';
+  export default {
+    name: 'NavbarPage',
+    components: {
+      mdbNavbar,
+      mdbNavbarBrand
+    }
+  }
+</script>

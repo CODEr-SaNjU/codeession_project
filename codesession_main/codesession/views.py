@@ -11,3 +11,6 @@ def Tutorial(request):
 
 def Programs(request):
     return render(request,"html_files/programs.htm")
+
+def contact(request):
+    return render(request,'html_files/contact.htm')

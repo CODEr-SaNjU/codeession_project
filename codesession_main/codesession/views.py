@@ -17,3 +17,6 @@ def contact(request):
 
 def service(request):
     return render(request,"html_files/services.htm")
+
+def sem1_1year(request):
+    return render(request,"html_files/sem1_1year.htm")

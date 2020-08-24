@@ -1,0 +1,181 @@
+{% extends "html_files/main.htm" %}
+
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/Home.css' %}">
+<link rel="stylesheet" type="text/css" href="/static/css/Home.css">
+<body>
+{% block content %}
+<hr>
+<hr>
+<hr>
+<main class="mt-5 pt-5">
+  <div class="container">
+
+    <!--Section: Jumbotron-->
+    <!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="/static/image/banner_1.png"
+          alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive"  style="color: #fdfd;"></h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="/static/image/banner_2.png"
+          alt="Second slide">
+        <div class="mask rgba-black-strong"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive"></h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="/static/image/banner_3.png"
+          alt="Third slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive"></h3>
+      </div>
+    </div>
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <hr class="my-5">
+    <div class="row">
+      <!-- Grid column -->
+      <div class="col-lg-5">
+          <!-- Featured image -->
+          <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+              <img class="img-fluid" src="/static/image/web_banner.png" alt="Sample image">
+              <a><div class="mask rgba-white-slight"></div></a>
+            </div>
+        </div>
+        <div class="col-lg-7">
+            <h2 class="font-weight-bold mb-3" style="font: 600 34px/45px Charlie Display;color: #253858;text-transform: none;letter-spacing: 1px;margin: 10px 10px 37px;"><strong>WEB & APP DESIGNING AND DEVELOPMENT BY EXPERTS</strong></h2>
+            <!-- Excerpt -->
+            <p style="font: 400 18px/27px charlie display;color: #42526E; text-align:justify;"> Codesession Pvt. Ltd. is a leading company offering customized IT solution & services to clients. Codesession is a one stop IT Gymnasium offering diversified services for all type of IT needs of the clients. codesession helps the clients in broadening their horizons by technological boost-up to keep their IT services fitter and healthier. codesession offers services for small to mid-range companies in areas of design, development, architect software solutions, instructional designing and helps in smooth sailing digital journey of their businesses.</p>
+      </div>
+    </div>
+    <hr class="my-5">
+    <div class="container mt-5">
+      <!--Section: Content-->
+      <section class="text-center">
+        <!-- Section heading -->
+        <h3 class="text-center font-weight-bold mb-4 pb-2" style="color:#253858; font-style:italic; font-size:xx-large;">Our Company Features</h3>
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+            <!-- Card -->
+            <div class="card hoverable">
+              <!-- Card image -->
+              <img class="card-img-top" src="/static/image/web_Dev.jpeg" alt="Card image cap">
+              <!-- Card content -->
+              <div class="card-body">
+                <!-- Title -->
+                <p class="card-title text-muted text-uppercase font-small mt-1 mb-3" style="color:#253858;font: 400 18px/27px charlie display;">WEB DEVELOPMENT & designing</p>
+                <!-- Text -->
+                <p class="mb-2">Self-paced learning training manuals, Self-paced e-learning courses.</p>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+            <!-- Card -->
+            <div class="card hoverable">
+              <!-- Card image -->
+              <img class="card-img-top" src="/static/image/training.jpeg" alt="Card image cap">
+              <!-- Card content -->
+              <div class="card-body">
+                <!-- Title -->
+                <p class="card-title text-muted text-uppercase font-small mt-1 mb-3" style="color:#253858;font: 400 18px/27px charlie display;">Software Training & Tutorials</p>
+                <!-- Text -->
+                <p class="mb-2">Top five brilliant content marketing strategies</p>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-6 mb-0">
+            <!-- Card -->
+            <div class="card hoverable">
+              <!-- Card image -->
+              <img class="card-img-top" src="/static/image/app_dev.jpeg" alt="Card image cap">
+              <!-- Card content -->
+              <div class="card-body">
+                <!-- Title -->
+                <p class="card-title text-muted text-uppercase font-small mt-1 mb-3" style="color:#253858;font: 400 18px/27px charlie display;">App DEVELOPMENT</p>
+                <!-- Text -->
+                <p class="mb-2">Best practices for minimalist design with example</p>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </section>
+      <!--Section: Content-->
+    </div>
+    <hr class="my-2">
+    <div class="container mt-5">
+      <section class="text-center">
+        <h3 class="text-center font-weight-bold mb-4 pb-2" style="color:#253858; font-style:italic; font-size:xx-large;">Our Working process</h3>
+      </section>
+      <img src="/static/image/process.png" class="img-fluid" alt="Responsive image">
+    </div>
+{% endblock %}
+</body>
+
+
+
+
+
+<script></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

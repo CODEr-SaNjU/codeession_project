@@ -14,3 +14,6 @@ def Programs(request):
 
 def contact(request):
     return render(request,'html_files/contact.htm')
+
+def service(request):
+    return render(request,"html_files/services.htm")

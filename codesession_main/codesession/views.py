@@ -41,3 +41,21 @@ def me_2nd(request):
 
 def it_2nd(request):
     return render(request,"html_files/it_2nd.htm")
+
+def civil_3rd(request):
+    return render(request,"html_files/civil_3rd.htm")
+
+def cse_3rd(request):
+    return render(request,"html_files/cse_3rd.htm")
+
+def ee_3rd(request):
+    return render(request,"html_files/ee_3rd.htm")
+
+def el_3rd(request):
+    return render(request,"html_files/el_3rd.htm")
+
+def me_3rd(request):
+    return render(request,"html_files/me_3rd.htm")
+
+def it_3rd(request):
+    return render(request,"html_files/it_3rd.htm")

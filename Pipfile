@@ -9,6 +9,7 @@ verify_ssl = true
 django = "*"
 djangorestframework = "*"
 psycopg2-binary = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.8"

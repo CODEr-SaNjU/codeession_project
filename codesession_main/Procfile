@@ -1,1 +1,1 @@
-web: gunicorn  codesession_main.wsgi
+web:gunicorn  codesession_main.wsgi
